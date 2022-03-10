@@ -50,6 +50,10 @@
     form p {
         font-size: 0.7rem;
     }
+
+    form p a {
+      text-decoration: underline;
+    }
     
     h1, h2 {
       text-align: center;
