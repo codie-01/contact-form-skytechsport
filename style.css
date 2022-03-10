@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    padding: 5%;
+    font-family: 'Lato', sans-serif;
+    color: black;
+  }
+  
+  
+  form input, form textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    border: 2px solid grey;
+    padding: 0.5rem;
+    outline: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+  }
+  
+  form input:focus, 
+  form textarea:focus {
+    border-color: #c0392b;
+  }
+  
+  textarea {
+    min-height: 9rem;
+  }
+
+  form label {
+    /*---- change label from default display inline-block to display: block to set custom margin ----*/
+    display: block;
+    margin-top: 1rem;
+      color: #c0392b;
+      font-weight: bold;
+    }
+    
+    form button {
+      background-color: #c0392b;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      margin: 1rem 0;
+      letter-spacing: 0.5rem 0;
+    }
+
+    form p {
+        font-size: 0.7rem;
+    }
+    
+    h1, h2 {
+      text-align: center;
+    }
+    
+    footer {
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    a:hover {
+      color: #c0392b;
+    }
+  
+    button:hover {
+      color: #c0392b;
+      background-color: white;
+      border: 1px solid #c0392b;
+    }
