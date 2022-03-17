@@ -10,7 +10,21 @@
     color: black;
   }
   
-  
+   /*----------------------- Header -----------------------*/
+
+  header {
+    padding: 0% 5%;
+  }
+
+  header a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem;
+  }
+
+
+  /*----------------------- Contact Form -----------------------*/
   form input, form textarea {
     width: 100%;
     margin: 0.5rem 0;
@@ -80,9 +94,14 @@
     }
 
     img {
-      max-height: 100px;
+      max-height: 80px;
     }
 
+
+
+    /*----------------------- Utility Classes  -----------------------*/
+
+      /*----------------------- Contact Form -----------------------*/
     .center {
       display: block;
       margin-left: auto;
@@ -91,3 +110,15 @@
     }
 
     .pointer { cursor: pointer; }
+
+      /*----------------------- Header & Footer -----------------------*/
+      .right  { text-align: right; }
+
+      [class*="col-"] {
+        padding: 0;
+      }
+
+      .logo h2 {
+        font-size: 3rem;
+        font-weight: normal;
+      }
